@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #000000;
+}
+
+.inner_header{
+      width: 90%;
+      height: 100%;
+      display: block;
+      margin: 0 auto;
+}
+
+.logo_container{
+      height: 100%;
+      display: table;
+      float: left;
+}
+/* This is Air Jordan I in the top left header container*/
+.logo_container h1{
+      color: white;
+      height: 100%;
+      width: auto;
+      display: table-cell;
+      vertical-align: middle;
+      font-family: "Arial, sans-serif";
+      font-size: 35px;
+      padding: 20px 80px;
+}
+
+.logo_container h1 span {
+      font-weight: bold;
+}
+
+/*This is the content of home, contact, and colorways (top right)*/
+.navigation{
+      float: right;
+      height: 100%;
+}
+
+.navigation a{
+      height: 100%;
+      display: table;
+      float: left;
+      padding: 10px 30px;
+}
+
+.navigation a:last-child{
+      padding: 5;
+}
+
+.navigation a li{
+      display: table-cell;
+      vertical-align: middle;
+      height: 100%;
+      color: white;
+      font-family: "Arial, sans-serif";
+      font-size: 18px;
+}
+
+/*This is where the body of the site starts.*/
+
+html, body{
+    font-family: Arial, sans-serif;
+}
+/*Jordan I image*/
+header img {
+  background-position: center;
+  background-size: cover;
+  width: 915px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding-bottom: 40px;
+}
+
+.content {
+  margin: 80px;
+  padding: 100px;
+}
+
+.content h2{
+      font-size: 30px;
+      text-align: center;
+      color: black;
+}
+
+.content p {
+  color: black;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 0;
+  text-align: center;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 2px none color:
+}
+
+.jordan-rings {
+    height: 730px;
+    width: 675px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px none black;
+    display: inline-block;
+    margin: 25px 10px;
+    padding-bottom: 40px;
+}
+
+#colorways h2 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+#colorways p {
+    font-size: 18px;
+    color: red;
+    padding-top: 5px;
+    text-align: center;
+    display: block;
+}
+
+.jordan-remake {
+  height: 291px;
+  width: 485px;
+  border-radius: 18px;
+  padding-top: 5px;
+  display: block;
+  text-align: center;
+}
+
+.jordan-royal {
+  height: 324px;
+  width: 421px;
+  border-radius: 18px;
+  padding-top: 5px;
+  position: relative;
+}
+
+.jordan-stormblue {
+  height: 289px;
+  width: 506px;
+  border-radius: 18px;
+  padding-top: 5px;
+  position: relative;
+}
